@@ -3,3 +3,80 @@ body {
     margin:0;
     min-height: 100vh;
 }
+
+ul {
+    display: flex;
+    list-style-type: none;
+    gap:16px;
+    margin:0;
+    padding:0;
+    color: #E5E7EB;
+    font-size: 14px;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding:16px 64px;
+    background-color: #1F2937;
+}
+
+.header-top {
+    /* border:4px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-center {
+    padding: 64px 0;
+    display:flex;
+    justify-content: space-between;
+    gap:64px;
+}
+
+.header-logo, .header-maintext {
+    color: #F9FAF8;
+    font-weight: 900;
+}
+
+.header-maintext {
+    font-size: 48px;
+}
+
+.header-center-text, .header-center-image {
+    flex: 1;
+}
+
+.header-center-text {
+    display: flex;
+    flex-direction: column;
+    gap:16px;
+}
+
+.header-center-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #636363
+}
+
+.header-subtext, .header-placeholder {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+.header-placeholder {
+    font-size:14px;
+}
+
+#hb, .banner{
+   background-color: #3882F6;
+}
+
+#hb {
+    color: white;
+    padding:8px 32px;
+    border:0px transparent;
+    border-radius:8px;
+}
