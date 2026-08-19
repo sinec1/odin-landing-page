@@ -13,13 +13,13 @@ ul {
     margin:0;
     padding:0;
     color: #E5E7EB;
-    font-size: 18px;
+    font-size: 14px;
 }
 
 .header {
     display: flex;
     flex-direction: column;
-    padding:5% 10%;
+    padding:16px 128px;
     background-color: #1F2937;
 }
 
@@ -140,7 +140,7 @@ ul {
     background-color: #E5E7EB;
     display:flex;
     flex-direction:column;
-    padding:7% 15%;
+    padding:86px 164px;
 }
 
 .body2-text {
@@ -155,6 +155,58 @@ ul {
     font-size: 24px;
     font-weight:900;
     align-self:flex-end;
+    padding-right: 32px;
+}
+
+.body3 {
+    display: flex;
+    flex-direction:column;
+    /* border: 4px solid red; */
+    height: 250px;
+    justify-content:center;
+}
+
+.banner {
+    align-self:center;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    height:120px;
+    width: 70%;
+    border-radius: 8px;
+}
+
+.body3-texts {
+    padding-left: 100px;
+    /* border: 4px solid blue; */
+}
+
+.body3-text1 {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.body3-text2 {
+    font-size: 14px;
+    font-weight: thin;
+    color:#F9FAF8;
+}
+
+.body3-button-container {
+    padding-right: 100px;
+    /* border: 4px solid red; */
+    flex-shrink:0;
+}
+
+.body3-button {
+    border: 2px solid #F9FAF8;
+    border-radius: 8px;
+    background-color:  #3882F6;
+    color: #F9FAF8;
+    padding:8px 32px;
+    font-size:14px;
+    font-weight: 900;
 }
 
 .footer {
